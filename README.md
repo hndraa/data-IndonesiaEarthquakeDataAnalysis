@@ -105,7 +105,8 @@ This stage helps ensure that subsequent analyses are based on an understanding o
 
 **Screenshot:**
 
-![Earthquake Data Exploration](screenshots/data-exploration.png)
+<img width="822" height="466" alt="image" src="https://github.com/user-attachments/assets/edf4c382-0085-4a69-89fa-395085b8e336" />
+
 
 ### 3.2 Earthquake Magnitude Frequency Analysis
 
@@ -135,7 +136,12 @@ The results describe the frequency of recorded historical events. They do not in
 
 **Screenshot:**
 
-![Earthquake Magnitude Frequency Analysis](screenshots/magnitude-frequency.png)
+<img width="332" height="435" alt="image" src="https://github.com/user-attachments/assets/9112e530-3d52-4fb3-94cd-35cae8bad8ae" />
+
+<img width="218" height="354" alt="image" src="https://github.com/user-attachments/assets/7aaca2d0-1314-4ddb-a297-cd89958bc8d1" />
+
+<img width="218" height="471" alt="image" src="https://github.com/user-attachments/assets/910a7c0c-7861-44ce-8f06-788ec3728dad" />
+
 
 ### 3.3 Earthquake Magnitude Distribution in Sumbawa
 
@@ -163,17 +169,18 @@ Compare earthquake frequencies across recorded magnitude values and identify whi
 
 **Screenshot:**
 
-![Sumbawa Earthquake Magnitude Distribution](screenshots/magnitude-distribution.png)
+<img width="989" height="590" alt="image" src="https://github.com/user-attachments/assets/d2f1d741-88fb-48d8-a64b-1583dc57abd4" />
 
-### 3.4 Monthly Earthquake Trends (2020–2024)
 
-A line chart illustrates monthly earthquake counts for records associated with the Sumbawa region between 2020 and 2024.
+### 3.4 Monthly Earthquake Trends (2020–2023)
+
+A line chart illustrates monthly earthquake counts for records associated with the Sumbawa region between 2020 and 2023.
 
 The date field is converted into a year-month format, and records are grouped by month before visualization.
 
 **Analysis Method:**
 - Filter records associated with the Sumbawa region.
-- Restrict the analysis to dates from 2020 through 2024.
+- Restrict the analysis to dates from 2020 through 2023.
 - Convert the date field into a year-month representation.
 - Count earthquake records for each month.
 - Visualize monthly counts using a Matplotlib line chart.
@@ -193,7 +200,8 @@ Observe changes in recorded earthquake frequency over time and identify months w
 
 **Screenshot:**
 
-![Monthly Earthquake Trends](screenshots/monthly-earthquake-trends.png)
+<img width="1387" height="590" alt="image" src="https://github.com/user-attachments/assets/b93c2a92-fd78-4b05-8d2e-83328039cb36" />
+
 
 ### 3.5 Relationship Between Earthquake Magnitude and Depth
 
@@ -219,7 +227,8 @@ Examine how recorded earthquake magnitudes are distributed across different dept
 
 **Screenshot:**
 
-![Earthquake Magnitude vs Depth](screenshots/magnitude-vs-depth.png)
+<img width="989" height="590" alt="image" src="https://github.com/user-attachments/assets/c32742e4-9b8c-4032-9c50-49025ac66a67" />
+
 
 ### Results Summary
 
@@ -228,7 +237,7 @@ Examine how recorded earthquake magnitudes are distributed across different dept
 | Data Loading & Exploration | Schema, sample records, and descriptive summary | Understand dataset structure and identify potential data quality issues. |
 | Magnitude Frequency Analysis | SQL query results | Identify frequently recorded magnitude values and compare overall and regional distributions. |
 | Sumbawa Magnitude Distribution | Bar chart | Explore the frequency of recorded magnitudes up to 5.0 in the selected regional data. |
-| Monthly Earthquake Trends | Line chart | Examine historical changes in monthly earthquake counts from 2020 to 2024. |
+| Monthly Earthquake Trends | Line chart | Examine historical changes in monthly earthquake counts from 2020 to 26 Januari 2023. |
 | Magnitude vs. Depth | Scatter plot | Explore the distribution of magnitude values across earthquake depths and identify observations for further study. |
 
 ### Overall Insights & Project Impact
@@ -361,4 +370,3 @@ When the notebook runs successfully with a compatible dataset, it generates:
 - The project is an exploratory data analysis workflow, not a real-time earthquake monitoring or prediction system.
 
 --- 
----
