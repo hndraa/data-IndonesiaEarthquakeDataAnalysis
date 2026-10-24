@@ -1,6 +1,6 @@
 # Indonesia Earthquake Data Analysis
 
-**BIG DATA** | **DATA ANALYTICS** | **PYSPARK & GOOGLE COLAB**
+**BIG DATA** | **DATA ANALYTICS** | **PYSPARK・GOOGLE COLAB**
 
 An exploratory data analysis project that processes Indonesian earthquake records using Apache Spark and Spark SQL. The project examines earthquake magnitude distributions, temporal patterns in the Sumbawa region, and the relationship between earthquake magnitude and depth through Python-based data visualizations.
 
